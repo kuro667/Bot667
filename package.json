@@ -1,0 +1,27 @@
+{
+  "name": "MegaZdeh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^11.6.2",
+    "fs": "^0.0.1-security",
+    "lowdb": "^1.0.0",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuro667/Bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kuro667/Bot/issues"
+  },
+  "homepage": "https://github.com/kuro667/Bot#readme"
+}

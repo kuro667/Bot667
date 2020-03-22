@@ -1,10 +1,10 @@
 {
     "install": {
-        "include": ["^package\\.json$", "^\\.env$"]
+        "include": ["^package-lock\\.json$", "^\\.env$"]
     },
     "restart": {
         "exclude": ["^public/", "^dist/"],
         "include": ["\\.js$", "\\.json"]
     },
-    "thrttle": 900000
+    "throttle": 900000
 }

@@ -3,7 +3,15 @@ const client = new Discord.Client();
 
 const fs = require("fs");
 
-client.login("NjkwMjM3MjgxNTQ1ODc5NjE2.XnO0kw.bN4B3v40-BRY_X9MgXtKW6UNiN4");
+client.on("ready", () => {
+    console.log("C'est pret");
+})
+
+client.on("message", message => {
+    if (message.content.startsWith("C'est bon mamene")) message.channel.send("bon")
+})
+
+client.login(process.env.TOKEN);
 
 client.commands = new Discord.Collection();
 

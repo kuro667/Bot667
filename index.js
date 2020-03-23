@@ -11,6 +11,10 @@ client.on("message", message => {
     if (message.content.startsWith("C'est bon mamene")) message.channel.send("bon")
 })
 
+client.on("message", message => {
+    if (message.content.startsWith("Inara ?")) message.channel.send("./croustiban")
+})
+
 client.login(process.env.TOKEN);
 
 client.commands = new Discord.Collection();
